@@ -1,0 +1,34 @@
+.navbar {
+  background-color:rgb(1, 24, 3);
+  height: 60px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 20px;
+}
+.icon-style {
+  color: white;
+  margin-right: 15px;
+}
+.nav-logo {
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+}
+.sidebar-menu {
+  background-color:rgb(1, 24, 3);
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: start;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+}
+
+.sidebar-menu.active {
+  left: 0;
+  transition: 350ms;
+}
+
